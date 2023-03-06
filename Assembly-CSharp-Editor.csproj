@@ -339,6 +339,15 @@
      <Reference Include="Newtonsoft.Json">
      <HintPath>/Users/uur/Desktop/Yazılım/Unity_C#/Btk_unity_3/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>/Users/uur/Desktop/Yazılım/Unity_C#/Btk_unity_3/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/uur/Desktop/Yazılım/Unity_C#/Btk_unity_3/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenUpgradeManager">
+     <HintPath>/Users/uur/Desktop/Yazılım/Unity_C#/Btk_unity_3/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>/Users/uur/Desktop/Yazılım/Unity_C#/Btk_unity_3/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
@@ -803,6 +812,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{ef6c98aa-f864-3f5b-b5e4-a643564ab78c}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{ed4a34da-abdd-c59e-df6b-5a3c737e8601}</Project>
       <Name>Assembly-CSharp</Name>
